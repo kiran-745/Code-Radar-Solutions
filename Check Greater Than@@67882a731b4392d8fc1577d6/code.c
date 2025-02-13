@@ -5,10 +5,12 @@ int main() {
 
     scanf("%d %d", &num1, &num2);
 
+    printf("Output\n"); // Print "Output" followed by a newline
+
     if (num1 > num2) {
-        printf("Output\nTrue"); // Include "Output" and a newline
+        printf("True"); // No newline after "True"
     } else {
-        printf("Output\nFalse"); // Include "Output" and a newline
+        printf("False"); // No newline after "False"
     }
 
     return 0;
