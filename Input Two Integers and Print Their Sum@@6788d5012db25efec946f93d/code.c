@@ -3,11 +3,11 @@
 int main() {
     int num1, num2, sum;
 
-    scanf("%d %d", &num1, &num2); // Read two integers separated by a space
+    scanf("%d %d", &num1, &num2);
 
-    sum = num1 + num2; // Calculate the sum
+    sum = num1 + num2;
 
-    printf("%d\n", sum); // Print the sum followed by a newline
+    printf("Sum: %d\n", sum); // Print "Sum: " followed by the sum and a newline
 
     return 0;
 }
