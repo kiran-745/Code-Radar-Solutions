@@ -3,9 +3,9 @@
 int main() {
     int num;
 
-    scanf("%d", &num); // Read an integer using %d format specifier
+    scanf("%d", &num); // Read a single integer
 
-    printf("%d\n", num); // Print the integer followed by a newline
+    printf("%d\n", num); // Print ONLY the integer, followed by a newline
 
     return 0;
 }
