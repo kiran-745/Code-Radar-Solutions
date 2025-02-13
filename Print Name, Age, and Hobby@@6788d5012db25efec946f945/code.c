@@ -10,6 +10,7 @@ int main() {
     scanf(" %99[^\n]", hobby); // Read hobby (string) - space is important!
 
     printf("%s\n", name); // Print name
+    printf("\n");       // Print a blank line - THIS IS THE KEY!
     printf("%d\n", age);    // Print age
     printf("%s\n", hobby); // Print hobby
 
